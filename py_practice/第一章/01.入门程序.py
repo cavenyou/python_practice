@@ -1,0 +1,5 @@
+# 需求:往控制台中输入Hello World//Hello Python(注释快捷键为:ctrl+/)
+# 字体大小(增加(shift+alt+.),减小(shift+alt+,))
+print ("Hello World")
+print ("Hello Python")
+print ("--------------------")
