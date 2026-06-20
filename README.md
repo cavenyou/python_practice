@@ -1,1 +1,1 @@
-# python_practice
+# 这是新手自学用来熟悉python核心语法功能的简单练习程序
