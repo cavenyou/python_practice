@@ -26,6 +26,13 @@ for s in students_scores:
     average = total/3
     print(f'{s[0]}\t{s[1]}\t{s[2]}\t\t{s[3]}\t\t{s[4]}\t\t{total}\t\t{average:.1f}')
 
+#利用元组解包的方法对上述循环进行优化,增强其可读性
+print("学号\t\t姓名\t\t语文\t\t数学\t\t英语\t\t总分\t\t平均分")
+for id,name,chinese,math,english in students_scores:
+    total = chinese + math + english
+    average = total/3
+    print(f'{id}\t{name}\t{chinese}\t\t{math}\t\t{english}\t\t{total}\t\t{average:.1f}')
+
 #统计各科成绩的最高分,最低分,平均分
 #将各科成绩拉出来
 chinese_scores = [s[2] for s in students_scores]
